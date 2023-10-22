@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../img/logoico.ico" type="image/x-icon" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.js"
+      integrity="sha512-kWH92pHUC/rcjpSMu19lT+H6TlZwZCAftg9AuSw+AVYSdEKSlXXB8o6g12mg5f+Pj5xO40A7ju2ot/VdodCthw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Pedido|Moreiras Pizzaria Delivery</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <div class="left-nav">
+          <a
+            href="https://web.whatsapp.com/send?phone=5582988574828&text=Ola%2C%20gostaria%20de%20fazer%20um%20pedido."
+            ><box-icon
+              name="whatsapp"
+              type="logo"
+              class="social-medias"
+            ></box-icon
+          ></a>
+          <a href="https://www.instagram.com/moreiraspizzariadelivery/"
+            ><box-icon
+              type="logo"
+              name="instagram"
+              class="social-medias"
+            ></box-icon
+          ></a>
+          <img src="../img/Logo.png" alt="Logo" id="logo" />
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="./Moreira.html">Início</a></li>
+            <span>|</span>
+            <li><a href="./Cardapio.html">Cardápio</a></li>
+            <span>|</span>
+            <li><a href="./Pedido.html">Acompanhar pedido</a></li>
+            <span>|</span>
+            <li><a href="./locate.html">Onde Estamos</a></li>
+          </ul>
+          <div class="shoop-icons">
+            <box-icon name="search"></box-icon>
+            <box-icon name="cart"></box-icon>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>Rastreador de Pedido de Pizza</h1>
+
+      <div class="step" id="step1">
+        <h2>Pedido Recebido</h2>
+      </div>
+
+      <div class="step" id="step2">
+        <h2>Pizza em Preparação</h2>
+      </div>
+
+      <div class="step" id="step3">
+        <h2>Pizza Enviada</h2>
+      </div>
+
+      <button id="nextButton" onclick="nextStep()">Próxima Etapa</button>
+    </main>
+    <footer>
+      <img src="../img/Logo.png" alt="Logo" id="logo" />
+      <h3>Endereço:</h3>
+      Pizzaria Moreira's Pizza - Maceió, AL
+      <h3>Telefone:</h3>
+      (82)98857-4828
+      <div class="left-nav">
+        <a
+          href="https://web.whatsapp.com/send?phone=5582988574828&text=Ola%2C%20gostaria%20de%20fazer%20um%20pedido."
+          ><box-icon
+            name="whatsapp"
+            type="logo"
+            class="social-medias"
+          ></box-icon
+        ></a>
+        <a href="https://www.instagram.com/moreiraspizzariadelivery/"
+          ><box-icon
+            type="logo"
+            name="instagram"
+            class="social-medias"
+          ></box-icon
+        ></a>
+      </div>
+      <h3>Horário de Funcionamento:</h3>
+      Quarta-feira a Domingo <br /><span id="time">18:00h - 23:00</span>
+    </footer>
+  </body>
+</html>
